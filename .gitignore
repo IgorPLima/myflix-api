@@ -1,0 +1,62 @@
+# Compilação
+bin/
+obj/
+*.exe
+*.dll
+*.pdb
+
+# Diretórios temporários
+.vscode/
+.vs/
+.idea/
+_ReSharper*/
+*.user
+*.suo
+*.cache
+*.log
+
+# Arquivos de build e publish
+*.db
+*.db-shm
+*.db-wal
+*.log
+*.bak
+*.tmp
+*.cache
+
+# Arquivos de publish gerados com dotnet publish
+publish/
+out/
+artifacts/
+
+# Configuração de ambiente
+appsettings.Development.json
+appsettings.Local.json
+.env
+*.secrets.json
+
+# Sistema operacional
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Arquivos de testes (opcional)
+TestResults/
+coverage/
+
+# Arquivos gerados por ferramentas externas
+*.ncrunch*
+*.TestDriven.*
+*.vshost.*
+
+# Pacotes e cache de dependências
+packages/
+.nuget/
+*.nupkg
+project.lock.json
+
+# Arquivos do Rider/JetBrains (caso use)
+.idea/
+
+# Visual Studio Code (já incluído acima)
+.vscode/
