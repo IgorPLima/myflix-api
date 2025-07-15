@@ -8,10 +8,6 @@
 
 ## 📁 Estrutura / Structure
 
-- `modules/`: Módulos de funcionalidade (auth, public, admin) | Functionality modules
-- `core/`: Serviços, interceptors, guards | Services, interceptors, guards
-- `shared/`: Componentes reutilizáveis | Reusable components
-
 - `MyFlix.API/`: Camada de apresentação (Controllers, Swagger) | Presentation layer (Controllers, Swagger)
 - `MyFlix.Application/`: Casos de uso, DTOs, interfaces | Use cases, DTOs, interfaces
 - `MyFlix.Domain/`: Entidades de domínio, regras de negócio | Domain entities, business rules
